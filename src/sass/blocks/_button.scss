@@ -1,0 +1,35 @@
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    &_main{
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+    }
+    &_submit{
+        width: 300px;
+        height: 55px;
+        background-color: $main-color;
+        background-repeat: 5px;
+    }
+    &_catalog{
+        width: 131px;
+        height: 40px;
+        background-color: $main-color;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #ffffff;
+
+    }
+    
+}
